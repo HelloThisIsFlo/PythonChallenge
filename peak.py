@@ -2,6 +2,10 @@ import pickle
 from urllib.request import urlopen
 
 
+def solve():
+    deserialize()
+
+
 def test_pickle():
     a = ['hello', 'ocucou', 'comment ca va ? ']
 
