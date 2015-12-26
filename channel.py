@@ -8,8 +8,7 @@ def solve():
     string = go_deep(90052, comments)
     print(string)
 
-    # simpler_version()
-
+    print('Note : solution is not hockey, but the letters composing it : oxygen!')
 
 
 def go_deep(current, comments, string=None, counter=0):
@@ -29,6 +28,7 @@ def go_deep(current, comments, string=None, counter=0):
             print(current_file)
 
     return string
+
 
 def build_comment_dict():
     with zipfile.ZipFile(r'files/channel.zip') as zip_file:
