@@ -3,8 +3,8 @@ from urllib.parse import urlencode
 import re
 
 
-def go_to_the_next_page():
-    go_deep(96791)
+def solve():
+    go_deep(12345)
 
 
 def go_deep(number):
