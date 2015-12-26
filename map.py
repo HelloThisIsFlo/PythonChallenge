@@ -3,6 +3,11 @@ alphabet = 'abcdefghijklmnopqrstuvwxyz'
 sample_text = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj."
 
 
+def solve():
+    result = decryp_alt(sample_text, 2)
+    print(result)
+
+
 def decrypt(to_decrypt, shift):
     # Tranlate the alphabet
     translated = alphabet[shift:] + alphabet[:shift]
