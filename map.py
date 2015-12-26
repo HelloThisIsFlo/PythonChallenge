@@ -6,6 +6,7 @@ sample_text = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc d
 def solve():
     result = decryp_alt(sample_text, 2)
     print(result)
+    print(decryp_alt('map', 2))
 
 
 def decrypt(to_decrypt, shift):
