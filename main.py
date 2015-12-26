@@ -1,4 +1,4 @@
-import good as current_enigma
+import bull as current_enigma
 
 
 # This file is used only to prevent modifying the launch configuration on pycharm for every different enigma.

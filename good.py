@@ -70,7 +70,7 @@ def solve():
 
     # draw_from_list(first)
     # draw_from_list(second)
-    draw_from_list(bull)
+    draw_from_list(bull) # from the solution page
 
     # Close window on click
     window.exitonclick()

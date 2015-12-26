@@ -3,6 +3,7 @@ from urllib.request import urlopen
 import itertools
 import re
 
+
 def solve():
     with urlopen('http://www.pythonchallenge.com/pc/def/oxygen.png') as raw_image:
         image = Image.open(raw_image)
