@@ -1,4 +1,4 @@
-import oxygen as current_enigma
+import integrity as current_enigma
 
 
 # This file is used only to prevent modifying the launch configuration on pycharm for every different enigma.
