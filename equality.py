@@ -2,6 +2,10 @@ import re
 import ocr
 
 
+def solve():
+    find_vip_better()
+
+
 def find_vip():
     with open(r'files/equality') as file:
         equality = file.read()
