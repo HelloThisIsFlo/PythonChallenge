@@ -11,16 +11,17 @@ def solve():
         # Get the middle pixel line
         width, height = image.size
         mid_h = int(height / 2)
-        pixels = list()
-        for i in range(0, width):
-            pixels.append(image.getpixel((i, mid_h)))
 
-        # Curate the pixel list
-        pixels_curated = [v for v, _ in itertools.groupby(pixels)]
+        # The first version used groupby to remove sequential repetition of values, the problem is that for char that
+        # are repeated it doesn't work anymore (removes the repeated characters). So I manually found the ammount of
+        # pixels per grey band : 7
+        pixels = [image.getpixel((i, mid_h)) for i in range(0, width, 7)]
 
         # Convert to ascii
-        print(''.join(map(chr, pixels_curated)))
+        print(''.join(map(chr, pixels)))
 
-        test = [105, 10, 16, 101, 103, 14, 105, 16, 121]
-        # test_bis = [chr(c) for c in test]
+        # Result from the first run ;)
+        test = [105, 110, 116, 101, 103, 114, 105, 116, 121]
+        print()
+        print('Result : ')
         print(''.join(map(chr, test)))
