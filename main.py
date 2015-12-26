@@ -1,4 +1,4 @@
-import map as current_enigma
+import ocr as current_enigma
 
 
 # This file is used only to prevent modifying the launch configuration on pycharm for every different enigma.

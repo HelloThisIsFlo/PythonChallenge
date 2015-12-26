@@ -2,6 +2,10 @@ from itertools import permutations
 import re
 
 
+def solve():
+    find_rare()
+
+
 def find_rare():
     with open(r'files/ocr') as junk_file:
         # Load text
