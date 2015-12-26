@@ -56,6 +56,9 @@ def solve():
     # Close window on click
     window.exitonclick()
 
+    print('For the record the solution is : bull')
+    print("Tried cow, but a message popped up : it's a male ^_^")
+
 
 @turtle_decorator
 def draw_shape(list_tuples):
