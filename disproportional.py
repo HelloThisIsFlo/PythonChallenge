@@ -27,6 +27,8 @@ def solve():
     for result in multicall():
         print(result)
 
+    print('The answer is : ITALY')
+
     # Omg I'm stupid the solution was 'ITALY' ^_^
 
 
